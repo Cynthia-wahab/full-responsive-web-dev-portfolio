@@ -172,47 +172,59 @@ footer textarea {
     display: none;
 }
 
-@media screen and (max-width:576px){
-    .skills-container,
-     .resume-container,
-     footer, .about-items, .banner {
-        flex-direction: column;
-    }
-    .hire-me{
-        display: none;
-    }
-    
-    footer, .about{
-        padding: 20px;
-    }
-    .footer-column{
-        width: 100%;
-    }
+@media screen and (max-width: 576px) {
+  .skills-container,
+  .resume-container,
+  footer,
+  .about-items,
+  .banner {
+    flex-direction: column;
+  }
 
-    footer input[type="text"],
-    footer input[type="email"],
-    footer textarea {
-        width: calc(100% - 40px);
-    }
-   .about{
-    margin: 20px;
-   }
-   .header{
-    background-image: none;
-   }
-   .banner-profile-pic{
+  .hire-me {
+    display: none;
+  }
+
+  footer,
+  .about {
+    padding: 20px;
+  }
+
+  .footer-column {
     width: 100%;
-   }
-   .banner, nav{
-    margin: 0 20px 0 20px;
-   }
+  }
 
-   }
-   .banner .btn-primary{
+  footer input[type="text"],
+  footer input[type="email"],
+  footer textarea {
+    width: calc(100% - 40px);
+  }
+
+  .about {
+    margin: 20px;
+  }
+
+  .header {
+    background-image: none;
+  }
+
+  .banner-profile-pic {
+    width: 100%;
+  }
+
+  .banner {
+    margin: 0 20px;
+  }
+
+  .banner .btn-primary {
     margin-top: 20px;
-   }
-   nav ul li{
-    margin-right: 10px;
+  }
 
-        
+  nav ul li {
+    margin-right: 10px;
+  }
+
+  nav {
+    margin: 0 20px;
+  }
 }
