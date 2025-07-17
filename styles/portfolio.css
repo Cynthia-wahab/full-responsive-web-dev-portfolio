@@ -175,7 +175,7 @@ footer textarea {
 @media screen and (max-width:576px){
     .skills-container,
      .resume-container,
-     footer, .about-items, .banner, nav, nav > ul {
+     footer, .about-items, .banner {
         flex-direction: column;
     }
     .hire-me{
@@ -203,6 +203,16 @@ footer textarea {
    .banner-profile-pic{
     width: 100%;
    }
+   .banner, nav{
+    margin: 0 20px 0 20px;
+   }
+
+   }
+   .banner .btn-primary{
+    margin-top: 20px;
+   }
+   nav ul li{
+    margin-right: 10px;
 
         
 }
