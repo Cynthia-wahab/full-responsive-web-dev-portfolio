@@ -173,15 +173,26 @@ footer textarea {
 }
 
 @media screen and (max-width:576px){
-    .skills-container, .resume-container, footer, .about-items{
+    .skills-container,
+     .resume-container,
+     footer, .about-items{
         flex-direction: column;
+    }
+    .hire-me{
+        display: none;
     }
     
     footer, .about{
         padding: 20px;
     }
     .footer-column{
-        width: calc(100% - 20px);
+        width: 100%;
+    }
+
+    footer input[type="text"],
+    footer input[type="email"],
+    footer textarea {
+        width: calc(100% - 40px);
     }
     .about{
         
