@@ -175,7 +175,7 @@ footer textarea {
 @media screen and (max-width:576px){
     .skills-container,
      .resume-container,
-     footer, .about-items{
+     footer, .about-items, .banner, nav, nav > ul {
         flex-direction: column;
     }
     .hire-me{
@@ -194,6 +194,15 @@ footer textarea {
     footer textarea {
         width: calc(100% - 40px);
     }
-    .about{
+   .about{
+    margin: 20px;
+   }
+   .header{
+    background-image: none;
+   }
+   .banner-profile-pic{
+    width: 100%;
+   }
+
         
 }
